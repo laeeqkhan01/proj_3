@@ -1,0 +1,21 @@
+{% load static %}
+
+<html>
+<head>
+  <link rel="stylesheet" href="{% static 'css/style_1.css' %}">
+  <script type="text/javascript" src = "{% static 'js/scr_1.js' %}"></script>
+</head>
+
+<body>
+  <h1>------ Home Page - 1 ------</h1>
+  <br>
+  <button onclick="btnFunc2()">Try JS</button>
+
+  <script>
+    function btnFunc1() {
+      alert('Button clicked - 1');
+    }
+  </script>
+</body>
+
+</html>
